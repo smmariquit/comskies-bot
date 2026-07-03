@@ -1,0 +1,30 @@
+{
+  "name": "comskies-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Discord bot for the UPLB ICS Discord server",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "register-commands": "bun src/register-commands.ts",
+    "register-commands:prod": "node dist/register-commands.js",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test src",
+    "lint": "biome check .",
+    "check": "biome check . && bun run typecheck && bun test src && bun run build"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0",
+    "@types/bun": "^1.2.4",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}

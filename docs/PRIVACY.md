@@ -6,8 +6,8 @@ This Discord bot serves the UPLB ICS Discord community. This policy describes ho
 
 ## What we process
 
-- **Discord account data** Discord provides when you use slash commands (e.g. user ID, username, guild context) — used only to respond to commands.
-- **Interaction content** only when required for a documented bot feature — not used for advertising or resale.
+- **Discord account data** Discord provides when you use slash commands (e.g. user ID, username, guild context): used only to respond to commands.
+- **Interaction content** only when required for a documented bot feature: not used for advertising or resale.
 
 ## What we do not do
 

@@ -35,4 +35,4 @@ Roadmap: [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT: see [LICENSE](LICENSE).

@@ -27,6 +27,12 @@ Discord bot for the UPLB ICS Discord server
 
 Roadmap: [docs/ROADMAP.md](docs/ROADMAP.md).
 
+## Production hosting
+
+Comskies is hosted with the other personal Discord bots by [`smmariquit/discord-bot-host`](https://github.com/smmariquit/discord-bot-host) on one Heroku web dyno. The central adapter owns the `COMSKIES_` environment prefix and starts this bot only when `comskies` is present in `ENABLED_BOTS`. See the host's [integration documentation](https://github.com/smmariquit/discord-bot-host/blob/main/docs/INTEGRATION.md).
+
+The Heroku app currently uses a GitHub Student Developer Pack credit, planned through May 2028 as an estimate. Verify the actual credit expiry in Heroku.
+
 ## Legal
 
 - [Privacy Policy](docs/PRIVACY.md)
